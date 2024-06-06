@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><JessePage class="com"></JessePage></title>
+ 
+ 
+ /*style start
+
+ <style>
+  .hidden {
+  display: none;}
+  input[type="checkbox"] {
+  width: 20px; 
+  height: 20px; 
+  color: #f012cb;}
+
+
+
+body{ background-image: url('https://th.bing.com/th/id/R.76c5d12d1b3f02e021dbf4c06cf596d7?rik=ip0H%2bI%2fcbwBLcA&pid=ImgRaw&r=0');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;}
+.top-right {
+    position: absolute;
+    top: 23%;
+    right: 0; 
+    transform: translateY(-50%);
+    text-align: right;
+    padding-right: 450px; color: azure ;
+  font-size: 20px;}
+ .bottom-left { 
+  position: absolute;
+  bottom: -20%;
+  left: -5%;
+  transform: translateY(-50%);
+  text-align: left;
+  padding-left: 450px; 
+  color: rgb(243, 244, 248);
+  font-size: 29px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+  under 
+
+
+  .question-mark {
+    font-size: 54px; 
+    cursor:grab;}
+  .popup-message {
+    display: none;
+    position: fixed;
+    left: 37%;
+height: 17%;
+font-size: 26px;
+ font-family: monospace;
+
+    transform: translateX(-50%, -50%);
+    background-color: rgb(5, 19, 88);
+    border: 5px solid #000;
+    padding: 20px;
+    width: 17% ;
+    top: 40%;
+    color: azure;
+    z-index: 1000; }
+
+  .close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 0 7px;}
+
+    .hidden {
+    display: none;}
+
+
+#clubPopup { display: none; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 300px; padding: 20px; border: 3px solid #f1f1f1; background-color: rgb(7, 7, 7); color: rgb(245, 50, 157);
+  font-size: 22px;
+    z-index: 10;}
+
+
+
+    .hiimjesse {
+    color: rgb(248, 246, 247);
+    font-size: 20px;
+    text-align: right;
+    padding: 20px;
+    font-family: cursive;
+    width: 50%;
+    position: absolute; 
+    top: 19%; 
+    right: 24%; 
+}
+
+.message {
+    color: rgb(219, 79, 152); 
+    font-size: 40px; 
+    text-align: center; 
+    background-color: #060606; 
+    padding: 20px; 
+    font-family: monospace;
+    width: 100%;
+}
+
+
+.paragraph {  width: 40% ;font-size: 27px; text-align: left; font-family: monospace;  color: #e0d0dd;
+  background-color: black;}
+
+  .extraparagraph {width: 40%;
+  font-size: 27px;
+  text-align: left;
+  font-family: monospace;
+  color: #e0d0dd;
+  background-color: black;
+  position: absolute; 
+  right: 0; 
+  height: 66%;
+  width: 42%;
+  margin-right: 10px; 
+  top: 138%;}
+
+</style>
+
+
+
+</head>
+
+
+
+<body>
+<div style="position: relative; text-align: center;">
+    <img src="https://th.bing.com/th/id/OIP.jYxHV43dbyZE0PYduC15wQAAAA?w=186&h=176&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Descriptive Text" 
+    style="width: 60%; height: auto;">
+    
+    <a href="https://th.bing.com/th/id/R.52351b235c577223399ca04609a3dc71?rik=QzLKkcQmC0kKUA&riu=http%3a%2f%2fwww.hartman-group.com%2fimg%2fhartbeat%2fobesity-in-America-250.jpg&ehk=8Udz3NB4CYZ4cYQAORcK60qaXBKADgDeKB5QTSjsBms%3d&risl=&pid=ImgRaw&r=0" style="position: absolute; top: 10%; left: 50%; transform: translate(-50%, -50%);">
+      <h1 style="font-size: 46px; color: #f012cb; text-decoration: underline; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    THIS IS THE OFFICIAL JESSE HATE PAGE.</h1></a></div></a>
+
+ 
+
+ 
+
+<div class="question-mark" onclick="togglePopup()">Confused? click me</div>
+
+
+<div id="popup" class="popup-message">
+  <span class="close-button" onclick="togglePopup()">X</span>
+ ALL JOKES!!! Jesse is amazingly awesome. - his number 1 fan.</div>
+
+ <div class="message"> Share the hateful jesse propaganda.</div>
+
+<div class="bottom-left">
+  The 5 main beliefs: (tick box once agreed)
+  <ul>
+    <li>
+      <input type="checkbox" onclick="revealNext(this)">
+      Number 1: Jesse STINKS.</li>
+    <li class="hidden">
+      <input type="checkbox" onclick="revealNext(this)">
+      Jesse is the biggest turd nerd</li>
+    <li class="hidden">
+      <input type="checkbox" onclick="revealNext(this)">
+      He is a senior (45yo) </li>
+    <li class="hidden">
+      <input type="checkbox" onclick="revealNext(this)">
+      He's the biggest mong </li>
+    <li class="hidden">
+      <input type="checkbox" onclick="revealNext(this)">
+      He's the best lol</li></ul></div>
+<div id="clubPopup">
+  <p>Welcome to the WeHateJesseClub!</p>
+  <button onclick="closePopup()">YAYYYYY</button></div>
+
+
+  <p class="paragraph"> smelliest, cheekiest, worst person ever! (yes, above hitler. )
+    not only is he a mac & cheese lover, hes american. yuck. cheese literally seeps out of his pores. Cheesus! haha get it cheesus-jesus okay nvm.
+    next up: loser. hes a loser. (successful in life with a rich carreer otw) but still a loser at heart.
+    not only is he a loser, hes a hybrid loser. the gym freak X loser breed. its distubring. the steriods have took their course on his body.
+    now seeing him is so bad that it will scare your kids right back into your ovaries
+    if they ever saw him. Protect your children! Exile Jesse!! 
+    click on the header for an insight of the american dream. 
+  </p>
+
+
+ 
+  <p class="extraparagraph"> You're still not convinced? okay. heres a list of inhumane actions jesse has done. 
+    june 3rd 2023 jesse snatched a piece of bread out of a ducks mouth and proceeded to eat it. the duck died of starvation.
+    june 4th 2023, jesse went to the local sperm bank and stole all of the sperm for his personal weird interests. ( his diet). he was found chugging them all under a bridge. like a troll. sperm troll.
+he has an unusual obsession with the United Kingdom & its people. hes jealous of them, wishes he was one. he loves our dishes & even 
+cooks them as a snack. Recently he was caught red-handed eating a plain potato in his wardrobe. he was in shambles because he had no Heinz beans.
+
+
+  </p>
+
+<p class="hiimjesse"> hiiii, im jesse. amber is the GOAT!</p>
+
+
+<script> 
+
+      function togglePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+  }
+  
+
+
+  function revealNext(checkbox) { if (checkbox.checked) {  var nextLi = checkbox.parentElement.nextElementSibling; if (nextLi) {     nextLi.style.display = 'block';} }checkAllChecked();}
+
+function checkAllChecked() { var checkboxes = document.querySelectorAll('input[type="checkbox"]');  var allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked); if (allChecked) {
+       
+        document.querySelector('.bottom-left').style.display = 'none';
+        document.getElementById('clubPopup').style.display = 'block'; }}
+
+function closePopup() {document.getElementById('clubPopup').style.display = 'none';}
+
+
+
+ </script>
+</body>
+</html>
